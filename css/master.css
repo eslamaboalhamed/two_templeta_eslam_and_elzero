@@ -325,13 +325,14 @@ body{
 
 /* start portfolio */
 .portfolio{
-    padding-top:var(--sens-padding) ;
+    padding-top: calc(var(--sens-padding) + 60px);
+    padding-bottom: var(--sens-padding);
 }
 .portfolio .portfolio-content{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px , 1fr));
     grid-gap: 30px;
-    margin: 38px 30px;
+    margin: 30px 15px;
 }
 .portfolio .portfolio-content .card{
     background-color: white;
